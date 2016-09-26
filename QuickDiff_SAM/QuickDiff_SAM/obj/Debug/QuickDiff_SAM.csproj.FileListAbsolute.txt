@@ -1,0 +1,9 @@
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\bin\Debug\QuickDiff_SAM.exe.config
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\bin\Debug\QuickDiff_SAM.exe
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\bin\Debug\QuickDiff_SAM.pdb
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\obj\Debug\QuickDiff_SAM.csprojResolveAssemblyReference.cache
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\obj\Debug\QuickDiff_SAM.Form1.resources
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\obj\Debug\QuickDiff_SAM.Properties.Resources.resources
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\obj\Debug\QuickDiff_SAM.csproj.GenerateResource.Cache
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\obj\Debug\QuickDiff_SAM.exe
+c:\users\sambhav.patni\documents\visual studio 2012\Projects\QuickDiff_SAM\QuickDiff_SAM\obj\Debug\QuickDiff_SAM.pdb
