@@ -1,0 +1,13 @@
+var isPopupBlocked = function() {
+  var isBlocked,
+      popup = window.open('about:blank', 'popup_test','width=5, height=5, left=0, top=0');
+
+  // pop under
+  if(popup) popup.blur();
+  window.focus();
+
+  isBlocked = !popup || typeof popup == 'undefined' || typeof popup.closed=='undefined' || popup.closed || popup.innerHeight == 0; 
+  if(popup) popup.close();
+
+  return isBlocked;
+};

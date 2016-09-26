@@ -1,0 +1,62 @@
+<html>
+<head>
+<title> CSTT Collapsible Section</title>
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    //hide the all of the element with class msg_body
+    $(".msg_body").hide();
+    //toggle the componenet with class msg_body
+    $(".msg_head").click(function(){
+        $(this).next(".msg_body").slideToggle(100);
+    });
+	
+});
+function Test()
+{
+    var div = document.getElementById("sp1").innerHTML;
+	 if(div=="[+]")
+	  document.getElementById("sp1").innerHTML="[-]";
+	 else
+	 document.getElementById("sp1").innerHTML="[+]";
+}
+</script>
+<style type="text/css">
+body {
+     
+    width: 570px;
+    font: 75%/120% Verdana,Arial, Helvetica, sans-serif;
+}
+p {
+    padding: 0 0 1em;
+}
+.msg_list {
+    
+    width: 383px;
+	valign:left;
+}
+.msg_head {
+    padding: 5px 10px;
+    cursor: pointer;
+    position:relative;
+    <!--background-color:#FFCCCC;-->
+	
+    margin:1px;
+}
+.msg_body {
+    padding: 5px 10px 15px;
+    <!--background-color:#F4F4F8;-->
+}
+</style>
+</head>
+<body>
+<div align="left">
+        <p class="msg_head"><span id="sp1" onclick="Test()">[+]</span>&nbsp;Expand this to see raw XML</p>
+        <div class="msg_body">
+        	<textarea readonly style="margin-top: -10;margin: -5px; width: 568px; height: 627px;padding-top: -10;">  <?xml version="1.0" encoding="UTF-8" ?> 
+- </textarea>
+        </div>
+
+</div>
+</body>
+</html>
